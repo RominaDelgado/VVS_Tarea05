@@ -1,1 +1,1 @@
-C:\Users\usuario\Desktop\VVS\VVS_Tarea05\build\classes\kotlin\main\Methods.class
+C:\Users\usuario\Desktop\VVS\VVS_Tarea05\build\classes\kotlin\main\BorradorKt.class;C:\Users\usuario\Desktop\VVS\VVS_Tarea05\build\classes\kotlin\main\Methods.class

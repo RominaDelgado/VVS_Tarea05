@@ -7,4 +7,8 @@ class Methods {
             else -> fibonacci(n - 1) + fibonacci(n - 2)
         }
 
+    fun isPalindrome(string: String): Boolean =
+        string == string.reversed()
+
+
 }

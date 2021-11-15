@@ -1,4 +1,4 @@
-import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
 class MethodsTest {
@@ -22,5 +22,16 @@ class MethodsTest {
         assertEquals(8,result)
     }
 
+    @Test
+    fun isPalindromeTest(){
+        val result = methods.isPalindrome("neuquen")
+        assertTrue(result)
+    }
+
+    @Test
+    fun isPalindromeWithNotPalindromeStringTest(){
+        val result = methods.isPalindrome("hola")
+        assertFalse(result)
+    }
 
 }
