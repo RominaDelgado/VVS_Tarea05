@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MethodsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-14T23:50:43" hostname="NOTEHP" time="0.289">
+<testsuite name="MethodsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-11-15T01:21:30" hostname="NOTEHP" time="0.484">
   <properties/>
-  <testcase name="isPalindromeTest()" classname="MethodsTest" time="0.289"/>
+  <testcase name="isPrimeNumberWithNotPrimeNumberTest()" classname="MethodsTest" time="0.142"/>
+  <testcase name="fibonacciWith0Test()" classname="MethodsTest" time="0.012"/>
+  <testcase name="fibonacciWith1Test()" classname="MethodsTest" time="0.007"/>
+  <testcase name="fibonacciWithNumberGreaterThan3Test()" classname="MethodsTest" time="0.015"/>
+  <testcase name="isPalindromeWithNotPalindromeStringTest()" classname="MethodsTest" time="0.249"/>
+  <testcase name="isPalindromeTest()" classname="MethodsTest" time="0.004"/>
+  <testcase name="isPrimeNumberTest()" classname="MethodsTest" time="0.011"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

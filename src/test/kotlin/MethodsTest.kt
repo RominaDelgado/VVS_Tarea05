@@ -34,4 +34,16 @@ class MethodsTest {
         assertFalse(result)
     }
 
+    @Test
+    fun isPrimeNumberTest(){
+        val result = methods.isPrimeNumber(11)
+        assertTrue(result)
+    }
+
+    @Test
+    fun isPrimeNumberWithNotPrimeNumberTest(){
+        val result = methods.isPrimeNumber(9)
+        assertFalse(result)
+    }
+
 }
